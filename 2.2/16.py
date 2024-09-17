@@ -1,0 +1,5 @@
+a = sorted(['Петя', 'Вася', 'Толя'], key=lambda _: -int(input()))
+print(f'          {a[0]}          ')
+print(f'  {a[1]}  ')
+print(f'                  {a[2]}  ')
+print('   II      I      III   ')
